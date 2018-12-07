@@ -82,12 +82,9 @@ var update = function update(modifier) {
     ++monsterCaught;
     reset();
   }
-
-  //  monster.x = 32 + (Math.random() * (canvas.width - 64));
-  //  monster.y = 32 + (Math.random() * (canvas.height - 64));
 };
 
-//Remderozar tudo
+//Renderizar tudo
 var render = function render() {
   if (bgReady) {
     ctx.drawImage(bgImage, 0, 0);

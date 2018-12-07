@@ -82,11 +82,9 @@ const update = function (modifier){
     reset();
   }
 
-//  monster.x = 32 + (Math.random() * (canvas.width - 64));
-//  monster.y = 32 + (Math.random() * (canvas.height - 64));
 };
 
-//Remderozar tudo
+//Renderizar tudo
 const render = function(){
   if(bgReady){
     ctx.drawImage(bgImage, 0, 0);
